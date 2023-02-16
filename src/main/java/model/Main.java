@@ -14,9 +14,9 @@ public class Main {
         tot[2] = appleG;
 
         ShoppingCart shoppingCart = new ShoppingCart(tot);
-        System.out.println(shoppingCart.getFoodPriceWithoutDiscount());
-        System.out.println(shoppingCart.getFoodPriceWithDiscount());
-        System.out.println(shoppingCart.getFoodPriceisVegetarian());
+        System.out.println("Общая сумма товаров без скидки: " + shoppingCart.getFoodPriceWithoutDiscount()); //Общая сумма товаров без скидки
+        System.out.println("Общую сумма товаров со скидкой: "+ shoppingCart.getFoodPriceWithDiscount()); //Общую сумма товаров со скидкой
+        System.out.println("Сумма всех вегетарианских продуктов без скидки: " + shoppingCart.getFoodPriceisVegetarian()); //Сумма всех вегетарианских продуктов без скидки
 
     }
 }

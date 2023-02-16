@@ -3,7 +3,7 @@ package model;
 import model.costant.Colour;
 
 class Apple extends Food { //Класс наследник Food - для яблок
-    String colour;
+    private String colour;
 
     public Apple(int amount, double price, String colour) {
         super(amount, price);
